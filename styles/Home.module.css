@@ -1,0 +1,146 @@
+/* Form  */
+.form{
+  padding: 5%;
+  width: 500px;
+  /* height: 500px; */
+  background-color: rgb(227, 230, 230);
+  margin:0 auto;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+/* Title */
+.title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  padding: auto;
+  margin-bottom: 10%;
+}
+
+/* Form Labels */
+.text{
+  font-weight: 700;
+  /* margin-bottom: 2%; */
+  padding: 2% 0;
+}
+
+/* Vehicle Name Field  */
+.name {
+  padding: 0 5%;
+  margin-left: 4%;
+}
+.name input{
+  border: none;
+  border-radius: 4px;
+  margin-top: 2%;
+  padding: 2%;
+  height: 4vh;
+  width: 400px;
+  font-size: 100%;
+}
+
+/* Vehicle Name field */
+.model {
+  padding: 0 5%;
+  margin-left: 4%;
+}
+.model input{
+  border: none;
+  border-radius: 4px;
+  margin-top: 2%;
+  padding: 2%;
+  height: 4vh;
+  width: 400px;
+  font-size: 100%;
+}
+
+/* Number of Wheels Field */
+.wheels {
+  padding: 0 5%;
+  margin-left: 4%;
+}
+.wheels select{
+  border: none;
+  border-radius: 4px;
+  margin-top: 2%;
+  padding: 2%;
+  height: 6vh;
+  width: 415px;
+  font-size: 100%;
+}
+
+/* submit Button */
+.button{
+  margin-left: 4%;
+  width: inherit;
+  height: 4vh;
+  padding: 0 5%; 
+  margin-top: 4%;
+  
+}
+.button button{
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(60, 250, 60);
+  color: #fff;
+  width: 415px;
+  padding: 2%;
+  font-weight: 700;
+}
+
+/* Container */
+.container{
+  background-color:  rgb(227, 230, 230);
+  width: 600px;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 0.5%;
+  border-radius: 4px;
+}
+/* innner Container */
+.inner{
+  background-color:  rgb(227, 230, 230);
+  width: 500px;
+  height: inherit;
+  padding: 1%;
+  text-align: center;
+  margin-left: 5%;
+
+}
+
+.inner ul li{
+  list-style: none;
+  margin-left: -2%;
+}
+
+.line{
+  height: 2px;
+}
+
+.data{
+  background-color:  #fff;
+  width: inherit;
+  height: inherit;
+  padding: 1%;
+}
+
+/* update button */
+.update{
+  padding: 2%;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(70, 153, 248);
+  color: #fff;
+  margin: 1%;
+}
+/* delete button */
+.delete{
+  padding: 2%;
+  border-radius: 4px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  margin: 1%;
+}
